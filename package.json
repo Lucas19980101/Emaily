@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+<<<<<<< HEAD
   "engines": {
     "node": "18.16.0",
     "npm": "9.5.1"
+=======
+  "engines":{
+    "node":"18.17.1",
+    "npm":"10.0.0"
+>>>>>>> ad5a8465d9ad9acd9a93a220f4c51e99d348a031
   },
   "scripts": {
     "start": "node index.js",
