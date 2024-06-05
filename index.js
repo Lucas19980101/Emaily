@@ -7,10 +7,11 @@ const keys = require('./config/keys');
 require('./models/User');
 require('./services/passport');
 
+console.log(keys);
+
 mongoose.connect(keys.mongoURI);
 
 const app = express();
-console.log(keys);
 
 app.use(bodyParser.json());
 app.use(
